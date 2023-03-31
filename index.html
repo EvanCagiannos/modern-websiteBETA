@@ -1,0 +1,45 @@
+<! 2023 Evan Cagiannos Copyright (c) All rights reserved>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button with Images and Text</title>
+  </head>
+  <body>
+    <button id="image-button">Click Me!</button>
+    <div id="image-container">
+      <div class="image-wrapper">
+        <img src="" alt="Image 1">
+        <p>Text 1</p>
+      </div>
+      <div class="image-wrapper">
+        <img src="" alt="Image 2">
+        <p>Text 2</p>
+      </div>
+      <div class="image-wrapper">
+        <img src="" alt="Image 3">
+        <p>Text 3</p>
+      </div>
+      <div class="image-wrapper">
+        <img src="" alt="Image 4">
+        <p>Text 4</p>
+      </div>
+    </div>
+    <script>
+      const button = document.querySelector('#image-button');
+      const images = document.querySelectorAll('#image-container img');
+      const texts = document.querySelectorAll('#image-container p');
+
+      button.addEventListener('click', () => {
+        // Replace the source and text of each image and text
+        images[0].src = 'image1.jpg';
+        texts[0].textContent = 'Text 1';
+        images[1].src = 'image2.jpg';
+        texts[1].textContent = 'Text 2';
+        images[2].src = 'image3.jpg';
+        texts[2].textContent = 'Text 3';
+        images[3].src = 'image4.jpg';
+        texts[3].textContent = 'Text 4';
+      });
+    </script>
+  </body>
+</html>
