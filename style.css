@@ -1,6 +1,7 @@
+/* 2023 Evan Cagiannos Copyright (c) All rights reserved. */
 /* Set background color for the page */
 body {
-  background-color: #f9f9f9;
+  background-color: #FAF9F6;
 }
 
 /* Style for the image container */
@@ -10,7 +11,7 @@ body {
   height: 360px;
   margin: 10px;
   text-align: center;
-  background-color: #fff;
+  background-color: #add8e26;
   border: 1px solid #ccc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -32,7 +33,7 @@ body {
 /* Style for the footer */
 footer {
   background-color: #444;
-  color: #fff;
+  color: #add8e26;
   text-align: center;
   padding: 20px;
 }
